@@ -52,12 +52,20 @@ public class Caneta {
     }
     
     Caneta(){ 
-        if (cor == null){
-            cor = "Arco-iris";
-    }else
-        System.out.println("Uma caneta" + this.cor);
+//        if (cor == null){
+//            cor = "Arco-iris";
+//    }else
+//      //  System.out.println("Uma caneta" + this.cor);
+//    }
     }
     
+    public void status(){
+        System.out.println("Cor " + this.cor);
+        System.out.println("Ponta " + this.ponta);
+        System.out.println("Tampa: " + this.tampada);
+        System.out.println("Modelo " + this.modelo);
+        System.out.println("Carga " + this.carga);
+    }
     public void rabiscar(){
         if (tampada == true){
             System.out.println("ERRO");        

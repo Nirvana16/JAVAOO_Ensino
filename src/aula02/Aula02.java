@@ -14,11 +14,13 @@ public class Aula02 {
         c1.setModelo("bic");
         c1.setCarga(50);
         
-        System.out.println("Cor " + c1.getCor());
-        System.out.println("Ponta " + c1.getPonta());
-        System.out.println("Tampa: " + c1.isTampada());
-        System.out.println("Modelo " + c1.getModelo());
-        System.out.println("Carga " + c1.getCarga());
+//        System.out.println("Cor " + c1.getCor());
+//        System.out.println("Ponta " + c1.getPonta());
+//        System.out.println("Tampa: " + c1.isTampada());
+//        System.out.println("Modelo " + c1.getModelo());
+//        System.out.println("Carga " + c1.getCarga());
+
+        c1.status();
             }
        
     
